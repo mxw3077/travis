@@ -16,7 +16,7 @@ after_success:
  - npm version patch
   - git commit -am "[skip ci] bump version"
  - git log --oneline
-  - git remote set-url origin [SET TO YOUR OWN GITHUB URL]
+  - git remote set-url origin https://github.com/mxw3077/travis.git
   - git push origin master
 #  - npm run coverage
 #  - mv coverage/cobertura-coverage.xml shippable/codecoverage/coverage.xml
